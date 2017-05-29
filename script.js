@@ -1,6 +1,17 @@
+  function isEmpty( el ){
+      return !$.trim(el.html())
+  }
+
+
+
 $(document).ready(function(){
-    $(".block").click(function(){
-        $(this).append("X");
+    $('.block').click(function(){
+    	if ($(this).html() == ""){
+    		$(this).html("X")
+        }
+        
+        
+        
     });
 });
 
@@ -31,5 +42,5 @@ $(document).ready(function(){
 //
 //
 //function checkFor3XInRow(){
-//	if field.block1 == "X" && field.block2 == "X" && field.block3 == "X" || field.block1 == "x" && field.block4 == "X" && field.block7 == "X" || field.block2 == "X" && field.block5 == "X" &&field.block8 == "X" || field.block3 == "X" && field.block6 == "X" && field.block9 == "X",
+//	if field.block1 == "X" && field.block2 == "X" && field.block3 == "X" || field.block1 == "x" && field.block4 == "X" && field.block7 == "X" || field.block2 == "X" && field.block5 == "X" &&field.block8 == "X" || field.block3 == "X" && field.block6 == "X" && field.block9 == "X" ||
 //}
