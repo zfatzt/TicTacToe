@@ -28,6 +28,6 @@ $.ajax({
 });
 
 
-function checkFor3InRow(){
-	if field.block1 == "X" && field.block2 == "X" && field.block3 == "X" || field.block1 == "x"
+function checkFor3XInRow(){
+	if field.block1 == "X" && field.block2 == "X" && field.block3 == "X" || field.block1 == "x" && field.block4 == "X" && field.block7 == "X" || field.block2 == "X" && field.block5 == "X" &&field.block8 == "X" || field.block3 == "X" && field.block6 == "X" && field.block9 == "X",
 }
