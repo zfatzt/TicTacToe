@@ -37,7 +37,7 @@ h2 {
 #block1 {
 	border-style: solid;
 	border-color: white;
-	border-width: 1px;
+	border-width: 0.5px;
 	border-top: none;
 	border-left: none;
 }
@@ -45,14 +45,14 @@ h2 {
 #block2 {
 	border-style: solid;
 	border-color: white;
-	border-width: 1px;
+	border-width: 0.5px;
 	border-top: none;
 }
 
 #block3 {
 	border-style: solid;
 	border-color: white;
-	border-width: 1px;
+	border-width: 0.5px;
 	border-top: none;
 	border-right: none;
 }
@@ -60,27 +60,27 @@ h2 {
 #block4 {
 	border-style: solid;
 	border-color: white;
-	border-width: 1px;
+	border-width: 0.5px;
 	border-left: none;
 }
 
 #block5 {
 	border-style: solid;
 	border-color: white;
-	border-width: 1px;
+	border-width: 0.5px;
 }
 
 #block6 {
 	border-style: solid;
 	border-color: white;
-	border-width: 1px;
+	border-width: 0.5px;
 	border-right: none;
 }
 
 #block7 {
 	border-style: solid;
 	border-color: white;
-	border-width: 1px;
+	border-width: 0.5px;
 	border-left: none;
 	border-bottom: none;
 }
@@ -88,14 +88,14 @@ h2 {
 #block8 {
 	border-style: solid;
 	border-color: white;
-	border-width: 1px;
+	border-width: 0.5px;
 	border-bottom: none;
 }
 
 #block9 {
 	border-style: solid;
 	border-color: white;
-	border-width: 1px;
+	border-width: 0.5px;
 	border-right: none;
 	border-bottom: none;
 }
