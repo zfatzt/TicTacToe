@@ -14,14 +14,14 @@ h1 {
 	margin-bottom: 7%;
 }
 
-h2 {
+/* h2 {
 	letter-spacing: 5px;
 	text-transform: uppercase;
 	font: 10px "Lato", sans-serif;
 	text-align: center;
 	margin: 5px;
 }
-
+ */
 #playField {
 	height: 304px;
 	width: 304px;
@@ -101,4 +101,12 @@ h2 {
 	border-width: 0.5px;
 	border-right: none;
 	border-bottom: none;
+}
+
+#winningText {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 10px "Lato", sans-serif;
+	text-align: center;
+	margin: 5px;
 }

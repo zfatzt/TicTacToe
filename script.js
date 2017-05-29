@@ -1,46 +1,55 @@
-  function isEmpty( el ){
-      return !$.trim(el.html())
-  }
+$(document).ready(function() {
+	$('.block').click(function() {
+		if ($(this).html() == "") {
+			$(this).html("X")
+			checkFor3InRow("X");
+			checkFor3InRow("O");
+		
+		}
 
-
-
-$(document).ready(function(){
-    $('.block').click(function(){
-    	if ($(this).html() == ""){
-    		$(this).html("X")
-        }
-        
-        
-        
-    });
+	});
 });
 
-//var field = {
-//	block1 : document.getElementbyId("#block1").value,
-//	block2 : document.getElementbyId("#block2").value,
-//	block3 : document.getElementbyId("#block3").value,
-//	block4 : document.getElementbyId("#block4").value,
-//	block5 : document.getElementbyId("#block5").value,
-//	block6 : document.getElementbyId("#block6").value,
-//	block7 : document.getElementbyId("#block7").value,
-//	block8 : document.getElementbyId("#block8").value,
-//	block9 : document.getElementbyId("#block9").value,
-//};
 //
-//var json = JSON2.stringify(field);
-//
-//$.ajax({
-//	type : "POST",
-//	url : "TelephoneNumbers.aspx/DeleteNumber",
-//	data : json,
-//	contentType : "application/json; charset=utf-8",
-//	dataType : "json",
-//	success : function(msg) {
-//		alert('In Ajax');
-//	}
-//});
-//
-//
-//function checkFor3XInRow(){
-//	if field.block1 == "X" && field.block2 == "X" && field.block3 == "X" || field.block1 == "x" && field.block4 == "X" && field.block7 == "X" || field.block2 == "X" && field.block5 == "X" &&field.block8 == "X" || field.block3 == "X" && field.block6 == "X" && field.block9 == "X" ||
-//}
+// var json = JSON2.stringify(field);
+
+// $.ajax({
+// type : "POST",
+// url : "TelephoneNumbers.aspx/DeleteNumber",
+// data : json,
+// contentType : "application/json; charset=utf-8",
+// dataType : "json",
+// success : function(msg) {
+// alert('In Ajax');
+// }
+// });
+
+function checkFor3InRow(player) {
+
+	var field = {
+		block1 : $("#block1").html(),
+		block2 : $("#block2").html(),
+		block3 : $("#block3").html(),
+		block4 : $("#block4").html(),
+		block5 : $("#block5").html(),
+		block6 : $("#block6").html(),
+		block7 : $("#block7").html(),
+		block8 : $("#block8").html(),
+		block9 : $("#block9").html(),
+	};
+
+	if (field.block1 == player && field.block2 == player && field.block3 == player
+			|| field.block1 == player && field.block4 == player
+			&& field.block7 == player || field.block1 == player
+			&& field.block5 == player && field.block9 == player
+			|| field.block2 == player && field.block5 == player
+			&& field.block8 == player || field.block3 == player
+			&& field.block5 == player && field.block7 == player
+			|| field.block3 == player && field.block6 == player
+			&& field.block9 == player || field.block4 == player
+			&& field.block5 == player && field.block6 == player
+			|| field.block7 == player && field.block8 == player
+			&& field.block9 == player) {
+		$('#winningText').html("player " + player + " won!!")
+	}
+}

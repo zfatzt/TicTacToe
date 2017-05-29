@@ -20,7 +20,7 @@
 		<div  class="block" id="block8"></div>
 		<div  class="block" id="block9"></div>
 	</div>
-	<h2>Player 0 won !</h2>
+	<h2 id="winningText"></h2>
 </body>
 </html>
 
