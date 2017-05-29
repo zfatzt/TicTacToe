@@ -32,6 +32,9 @@ h2 {
 	height: 100px;
 	width: 100px;
 	float: left;
+	font: 60px "Lato", sans-serif;
+	text-align: center;
+	line-height: 100px;
 }
 
 #block1 {
