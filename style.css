@@ -1,1 +1,67 @@
 @CHARSET "ISO-8859-1";
+
+body {
+	background-color: black;
+	padding-top: 12%;
+}
+
+h1 {
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	font: 30px "Lato", sans-serif;
+	text-align: center;
+	margin: 5px;
+	color: white;
+}
+
+#playField {
+	height: 300px;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.block {
+	background-color: blue;
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+
+#block1 {
+	background-color: red;
+	border-color: white;
+	border-right: thin;
+	border-bottom: thin;
+}
+
+#block2 {
+	
+}
+
+#block3 {
+	background-color: red;
+}
+
+#block4 {
+	
+}
+
+#block5 {
+	
+}
+
+#block6 {
+	
+}
+
+#block7 {
+	
+}
+
+#block8 {
+	
+}
+
+#block9 {
+	
+}
