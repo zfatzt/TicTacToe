@@ -2,7 +2,8 @@
 
 body {
 	background-color: black;
-	padding-top: 12%;
+	padding-top: 3%;
+	color: white;
 }
 
 h1 {
@@ -10,58 +11,91 @@ h1 {
 	text-transform: uppercase;
 	font: 30px "Lato", sans-serif;
 	text-align: center;
+	margin-bottom: 7%;
+}
+
+h2 {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 10px "Lato", sans-serif;
+	text-align: center;
 	margin: 5px;
-	color: white;
 }
 
 #playField {
-	height: 300px;
-	width: 300px;
+	height: 304px;
+	width: 304px;
 	margin: 0 auto;
 }
 
 .block {
-	background-color: blue;
 	height: 100px;
 	width: 100px;
 	float: left;
 }
 
 #block1 {
-	background-color: red;
+	border-style: solid;
 	border-color: white;
-	border-right: thin;
-	border-bottom: thin;
+	border-width: 1px;
+	border-top: none;
+	border-left: none;
 }
 
 #block2 {
-	
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-top: none;
 }
 
 #block3 {
-	background-color: red;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-top: none;
+	border-right: none;
 }
 
 #block4 {
-	
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-left: none;
 }
 
 #block5 {
-	
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
 }
 
 #block6 {
-	
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-right: none;
 }
 
 #block7 {
-	
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-left: none;
+	border-bottom: none;
 }
 
 #block8 {
-	
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-bottom: none;
 }
 
 #block9 {
-	
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-right: none;
+	border-bottom: none;
 }
